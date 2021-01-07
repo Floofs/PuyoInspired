@@ -1,0 +1,1 @@
+type = image_index;
