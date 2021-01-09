@@ -1,4 +1,4 @@
-if (global.paused) exit;
+if (global.paused) || (global.wait_timer[player] > 0) || (global.chain_timer[player] > 0) exit;
 
 if (!active) {
 	x = ((round(x) div sprite_get_width(s_pieces)) * sprite_get_width(s_pieces))+(sprite_get_width(s_pieces) div 2);

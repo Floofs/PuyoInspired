@@ -1,3 +1,4 @@
+sprite_index = global.piece_sprite;
 image_speed = 0;
 type = 0;
 popped = false;

@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "gameplay",
-    "path": "folders/Objects/gameplay.yy",
+    "name": "animation",
+    "path": "folders/Objects/gameplay/animation.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_chain",

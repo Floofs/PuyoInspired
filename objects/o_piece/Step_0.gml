@@ -1,6 +1,7 @@
 if (global.paused) exit;
 
 if (!grounded) {
+	if (global.wait_timer[player] <= 0) global.wait_timer[@ player] = 1;
 	vsp = 4;
 	xscale = 0.5;
 	yscale = 1.5;
@@ -23,6 +24,7 @@ else {
 			global.wait_timer[@ player] = room_speed div 8;
 			global.player_health[@ player] = clamp(global.player_health[player]-1,0,3);
 			with (o_piece) if (player == other.player) instance_destroy();
+			with (o_game) clear_timer = 60; //So we don't have too many particles on-screen
 			exit;
 		}
 		
@@ -32,6 +34,7 @@ else {
 		}
 	
 		if (type != 0 && !visited && !popped && _ready) {
+			if (global.wait_timer[player] <= 0) global.wait_timer[@ player] = 1;
 			BFS(id);
 		}
 	}

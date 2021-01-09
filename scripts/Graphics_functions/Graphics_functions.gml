@@ -39,5 +39,4 @@ function resize_window(_scale) {
 	else {
 		window_set_fullscreen(true);
 	}
-	display_set_gui_size(G_WIDTH,G_HEIGHT);
 }

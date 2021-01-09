@@ -29,6 +29,9 @@ enum missions {
 	chainCount,
 	blobCount
 }
+enum characters {
+	chloe	
+}
 
 //Important
 #macro SAVE_FNAME "save"

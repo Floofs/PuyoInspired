@@ -8,6 +8,6 @@ chance = 0;
 
 t = 0;
 
-alarm[0] = 1;
+name = "CPU";
 
 //y++; //So the spawner can't let you place blobs over the board
