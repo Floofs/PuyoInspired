@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7fe970fd-712b-4dfd-a5ca-23581321780b","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7fe970fd-712b-4dfd-a5ca-23581321780b","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},"LayerId":{"name":"f80c4044-cbb1-4b04-a00f-9189e245f873","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_character_chloe_left","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},"resourceVersion":"1.0","name":"7fe970fd-712b-4dfd-a5ca-23581321780b","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"a1b92012-f89b-4bca-904e-c401e23d48d7","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"a1b92012-f89b-4bca-904e-c401e23d48d7","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},"LayerId":{"name":"f80c4044-cbb1-4b04-a00f-9189e245f873","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"s_character_chloe_left","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},"resourceVersion":"1.0","name":"a1b92012-f89b-4bca-904e-c401e23d48d7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7fe970fd-712b-4dfd-a5ca-23581321780b","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7fe970fd-712b-4dfd-a5ca-23581321780b","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},"LayerId":{"name":"f80c4044-cbb1-4b04-a00f-9189e245f873","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_character_chloe_left","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},"resourceVersion":"1.0","name":"7fe970fd-712b-4dfd-a5ca-23581321780b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"s_character_chloe_left","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},
@@ -44,8 +44,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0f25d2c2-656d-4a99-a2c7-e7ff44031711","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7fe970fd-712b-4dfd-a5ca-23581321780b","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"7f895139-25e9-4a95-86bb-15acae7d9a69","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a1b92012-f89b-4bca-904e-c401e23d48d7","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7f895139-25e9-4a95-86bb-15acae7d9a69","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a1b92012-f89b-4bca-904e-c401e23d48d7","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0f25d2c2-656d-4a99-a2c7-e7ff44031711","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7fe970fd-712b-4dfd-a5ca-23581321780b","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,

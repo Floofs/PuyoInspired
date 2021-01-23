@@ -1,4 +1,4 @@
-if (global.paused) exit;
+if (global.paused) || (instance_exists(o_ready)) exit;
 
 if (t < 360) t += 4;
 else t -= 360;
@@ -9,6 +9,7 @@ if (instance_exists(o_piece_controller)) {
 		if (player == other.player) _notYet = true;
 	}
 }
+if (o_game.flip_timer <= 0) _notYet = true;
 
 if (!_notYet && global.garbage[player] > 0 && !dropped_garbage
 && global.wait_timer[player] <= 0 && global.chain_timer[player] <= 0) {

@@ -10,24 +10,12 @@ Fonts are Determination Mono and Sans
 #macro G_HEIGHT 180
 #macro G_FPS 60
 
-//Directions
-#macro CARDINAL_DIR round(direction/90)
-#macro DIR_RIGHT 0
-#macro DIR_UP 90
-#macro DIR_LEFT 180
-#macro DIR_DOWN 270
-
 //Game Modes
 enum gamemode {
 	singleBoard,
 	survival,
-	mission,
-	flip
-}
-enum missions {
-	colorCount,
-	chainCount,
-	blobCount
+	flip,
+	mission
 }
 enum characters {
 	chloe	

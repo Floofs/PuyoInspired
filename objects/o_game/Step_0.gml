@@ -1,4 +1,4 @@
-if (alarm[0] > 0) exit;
+if (alarm[0] > 0) || (instance_exists(o_ready)) exit;
 
 if (end_game) {
 	if (global.paused) global.paused = false;
@@ -8,13 +8,11 @@ if (end_game) {
 	
 	if (end_timer > 0) {
 		end_timer--;
-		/*
 		if (end_timer == 0) {
 			part_particles_clear(global.particle_blob);
 			gc_collect();
 			room_restart();
 		}
-		*/
 	}
 	exit;
 }
@@ -41,6 +39,45 @@ else global.wait_timer[@ 0] = 0;
 
 if (global.wait_timer[1] > 0) global.wait_timer[@ 1]--;
 else global.wait_timer[@ 1] = 0;
+
+switch (global.mode) {
+	case gamemode.flip: {
+		if (flip_timer > 0) {
+			flip_timer--;
+		}
+		else {
+			var _p1 = false;
+			var _p2 = false;
+			if (instance_exists(o_piece_controller)) {
+				with (o_piece_controller) {
+					_p1 = _p1 || (player == 0);
+					_p2 = _p2 || (player == 1);
+				}
+			}
+			
+			if (global.wait_timer[0] <= 0) && (!_p1) global.wait_timer[@ 0] = 2;
+			if (global.wait_timer[1] <= 0) && (!_p2) global.wait_timer[@ 1] = 2;
+				
+			if (!_p1) && (!_p2) has_flipped = false;
+		}
+		
+		if (!has_flipped) {
+			if (instance_exists(o_piece)) {
+				with (o_piece) {
+					y = (-y)+(SCREEN_HEIGHT);
+					grounded = false;
+				}
+			}
+			
+			global.wait_timer[@ 0] = 10;	
+			global.wait_timer[@ 1] = 10;
+			
+			show_debug_message("Flipped!");
+			flip_timer = room_speed * 15;
+			has_flipped = true;	
+		}
+	} break;
+}
 
 //Chains
 if (global.wait_timer[0] <= 0) {

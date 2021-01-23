@@ -11,6 +11,7 @@
     {"id":{"name":"o_data","path":"objects/o_data/o_data.yy",},"order":0,},
     {"id":{"name":"o_setup","path":"objects/o_setup/o_setup.yy",},"order":5,},
     {"id":{"name":"s_character_chloe_left","path":"sprites/s_character_chloe_left/s_character_chloe_left.yy",},"order":0,},
+    {"id":{"name":"s_character_chloe_portrait","path":"sprites/s_character_chloe_portrait/s_character_chloe_portrait.yy",},"order":4,},
     {"id":{"name":"s_character_chloe_win","path":"sprites/s_character_chloe_win/s_character_chloe_win.yy",},"order":2,},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},"order":2,},
     {"id":{"name":"o_piece_controller","path":"objects/o_piece_controller/o_piece_controller.yy",},"order":1,},
@@ -21,6 +22,7 @@
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
     {"id":{"name":"s_blue","path":"sprites/s_blue/s_blue.yy",},"order":0,},
     {"id":{"name":"s_pieces_shapes","path":"sprites/s_pieces_shapes/s_pieces_shapes.yy",},"order":8,},
+    {"id":{"name":"s_tile_anim","path":"sprites/s_tile_anim/s_tile_anim.yy",},"order":3,},
     {"id":{"name":"s_pieces_numbers","path":"sprites/s_pieces_numbers/s_pieces_numbers.yy",},"order":11,},
     {"id":{"name":"Graphics_functions","path":"scripts/Graphics_functions/Graphics_functions.yy",},"order":3,},
     {"id":{"name":"s_arrow","path":"sprites/s_arrow/s_arrow.yy",},"order":2,},
@@ -33,6 +35,7 @@
     {"id":{"name":"s_solid","path":"sprites/s_solid/s_solid.yy",},"order":2,},
     {"id":{"name":"s_pieces_orbs","path":"sprites/s_pieces_orbs/s_pieces_orbs.yy",},"order":10,},
     {"id":{"name":"s_bubble","path":"sprites/s_bubble/s_bubble.yy",},"order":8,},
+    {"id":{"name":"o_ready","path":"objects/o_ready/o_ready.yy",},"order":10,},
     {"id":{"name":"s_boxes","path":"sprites/s_boxes/s_boxes.yy",},"order":6,},
     {"id":{"name":"fnt_sans","path":"fonts/fnt_sans/fnt_sans.yy",},"order":1,},
     {"id":{"name":"s_pieces","path":"sprites/s_pieces/s_pieces.yy",},"order":1,},
@@ -96,7 +99,9 @@
   "TextureGroups": [
     {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"CopyToMask":153157610357391598,"filePath":"datafiles/data","resourceVersion":"1.0","name":"d_m","resourceType":"GMIncludedFile",},
+  ],
   "MetaData": {
     "IDEVersion": "2.3.1.542",
   },

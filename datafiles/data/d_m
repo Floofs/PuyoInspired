@@ -1,0 +1,53 @@
+{
+
+"PAGES" : [
+    {
+        "text"   : "Resume",
+        "type"   : "script_runner",
+        "script" : "resume_game"
+    },
+
+    {
+        "text"   : "Settings",
+        "type"   : "page_transfer",
+        "script" : "exit_game"
+    },
+
+    {
+        "text"   : "Exit",
+        "type"   : "script_runner",
+        "script" : "exit_game"
+    },
+
+    {
+        "text"   : "Back",
+        "type"   : "page_transfer",
+        "script" : "main_page"
+    },
+
+    {
+        "text"   : "Audio",
+        "type"   : "page_transfer",
+        "script" : "audio_page"
+    },
+
+    {
+        "text"   : "Master",
+        "type"   : "slider",
+        "script" : "change_volume"
+    },
+
+    {
+        "text" : "Music"
+        "type"   : "slider",
+        "script" : "change_volume"
+    },
+
+    {
+        "text" : "Effects"
+        "type"   : "slider",
+        "script" : "change_volume"
+    }
+]
+
+}

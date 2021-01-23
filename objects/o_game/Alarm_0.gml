@@ -1,5 +1,7 @@
 /// @desc Start the game
 
+instance_create_layer(0,0,layer,o_ready);
+
 //Create the spawners
 with (instance_create_layer(92,46,"Board",o_spawner)) {
 	player = 0;

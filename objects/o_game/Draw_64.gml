@@ -15,3 +15,13 @@ if (global.paused) {
 	
 	draw_text_transformed_color(_xx,SCREEN_CENTER_Y+_offset,_str,2,2,0,c_white,c_white,c_white,c_white,1);
 }
+else if (!end_game) && (!instance_exists(o_ready)) {
+	switch (global.mode) {
+		case gamemode.flip: {
+			draw_set_halign(fa_center);
+			draw_set_valign(fa_middle);
+			
+			draw_text_transformed(SCREEN_CENTER_X,SCREEN_CENTER_Y+16,floor(flip_timer/room_speed),2,2,0);
+		} break;
+	} 
+}

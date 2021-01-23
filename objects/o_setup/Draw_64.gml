@@ -12,12 +12,12 @@ switch (global.mode) {
 	case gamemode.survival: _mode = "Survival"; break;
 	case gamemode.singleBoard: _mode = "Single Board"; break;
 	case gamemode.flip: _mode = "Flip"; break;
-	case gamemode.mission: _mode = "Mode"; break;
+	case gamemode.mission: _mode = "Mission (X)"; break;
 }
 var _CPU = "Enabled";
 if (!global.CPU_only) _CPU = "Disabled";
 
-var _str = "Start\nGummi Type: < "+_shape+" >\nP1 CPU: < "+_CPU+" >\nGame Mode: < "+_mode+" > X";
+var _str = "Start\nGummi Type: < "+_shape+" >\nP1 CPU: < "+_CPU+" >\nGame Mode: < "+_mode+" >";
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
